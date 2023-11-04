@@ -1,0 +1,19 @@
+{
+  "name": "korean-district-polygonization",
+  "version": "0.0.1",
+  "description": "A package that handles the polygonziation (coordinates for the area) of specific districct in South Korea. Intended for uses with Kakao Map or Naver Map",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "map",
+    "polygonization"
+  ],
+  "author": "Hyunseung Lee",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "polygon-clipping": "^0.15.3"
+  }
+}
